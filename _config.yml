@@ -3,6 +3,6 @@ theme: jekyll-theme-minimal
 # Customize the style
 title: [A PLACE]
 description: [There is never THE but always A place for us to explore.]
-logo: /images/logo.png
+logo: /assets/img/logo.png
 blog: true
 project: true
