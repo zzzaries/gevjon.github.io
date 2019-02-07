@@ -16,4 +16,17 @@ body{
     }
   }
 
+  .page-link{
+    h3:hover, h3:focus {
+      color:#069;
+      font-weight: bold;
+    }
+    h3{
+      text-align: center;
+      // color: #267CB9;
+      position: relative;
+      top: 40%;
+      transform: translate(0,-50%);
+    }
+  }
 }
