@@ -3,8 +3,12 @@ theme: jekyll-theme-minimal
 # Customize the style
 title: [Yin's Homepage]
 description: [The description is left with empty because the owner of the page is currently searching for her life purpose.]
-baseurl: gevjon.github.io
+baseurl: /
 
+#assets
 logo: /assets/img/logo.png
+
+#config
 blog: true
 project: true
+site.github.is_user_page: true
