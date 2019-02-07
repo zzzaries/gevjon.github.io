@@ -1,8 +1,10 @@
 theme: jekyll-theme-minimal
 
 # Customize the style
-title: [A PLACE]
-description: [There is never THE but always A place for us to explore.]
+title: [Yin's Homepage]
+description: [The description is left with empty because the owner of the page is currently searching for her life purpose.]
+baseurl: gevjon.github.io
+
 logo: /assets/img/logo.png
 blog: true
 project: true

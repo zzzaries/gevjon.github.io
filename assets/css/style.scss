@@ -2,7 +2,23 @@
 ---
 
 @import "{{ site.theme }}";
+body{
+  //background-color: #FEE3E3;
+  p {
+    margin:0 0 10px;
+  }
 
-p {
-  margin:0 0 10px;
+  .post_list{
+    a{
+      font-size: 20px;
+      font-family:fantasy;
+      color: black;
+    }
+  }
+
+  .view{
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+
 }

@@ -22,10 +22,11 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
   </head>
+
   <body>
     <div class="wrapper">
       <header>
-        
+
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
@@ -34,18 +35,29 @@
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <br><br>
+        <br>
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
+        <!-- <div class="site-nav">
+          <nav>
+            <ul class = "page-link">
+              <li><a href="{{ "/" | absolute_url }}"> <h3> HOME </h3> </a></li>
+              <li><a href="{{"/blog_index.html" | prepend: site.baseurl}}"> <h3> BLOG </h3> </a></li>
+              <li><a href="{{"/project_index.html" | prepend:site.baseurl}}"> <h3> PROJECT </h3> </a></li>
+              <li><a href="{{"/about.md" | prepend:site.baseurl}}"> <h3> ABOUT </h3> </a></li>
+            </ul>
+          </nav>
+        </div> -->
         <p class="view"><a href="{{ "/" | absolute_url }}"> <h3> HOME </h3> </a></p>
+        <p class="view"><a href="{{"/about.md" | prepend: site.baseurl }}"> <h3> ABOUT </h3> </a></p>
         {% if site.blog %}
-        <p class="view"><a href="./blog_index.html"> <h3> BLOG </h3> </a></p>
+        <p class="view"><a href="{{"/blog_index.html" | prepend: site.baseurl}}"> <h3> BLOG </h3> </a></p>
         {% endif %}
         {% if site.project %}
-        <p class="view"><a href="./project_index.html"> <h3> PROJECT </h3> </a></p>
+        <p class="view"><a href="{{"/project_index.html" | prepend:site.baseurl}}"> <h3> PROJECT </h3> </a></p>
         {% endif %}
 
 <!--         {% if site.github.is_user_page %}
