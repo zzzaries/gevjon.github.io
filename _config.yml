@@ -11,4 +11,4 @@ logo: /assets/img/logo.png
 #config
 blog: true
 project: true
-site.github.is_user_page: true
+github.is_user_page: true
