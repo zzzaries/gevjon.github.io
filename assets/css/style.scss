@@ -2,17 +2,30 @@
 ---
 
 @import "{{ site.theme }}";
+
+// google web fonts
+$Serif: 'Roboto Slab', serif;
+$SansSerif: 'Roboto', sans-serif;
+$Monospace: 'Roboto Mono', monospace;
+
+
 body{
   //background-color: #FEE3E3;
+  font-family: $SansSerif;
   p {
     margin:0 0 10px;
+    font-size: 15px;
+    font-family: Arial;
   }
 
   .post_list{
     a{
       font-size: 20px;
-      font-family:fantasy;
-      color: black;
+      font-family:$SansSerif;
+      color: #002933;
+    }
+    li{
+      list-style-type: none;
     }
   }
 
@@ -29,4 +42,5 @@ body{
       transform: translate(0,-50%);
     }
   }
+
 }

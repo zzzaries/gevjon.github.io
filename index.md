@@ -3,7 +3,7 @@ layout: default
 ---
 
 ### About Me
-My name is Yin. I love painting, photography and listening to podcast. But honestly, I'm an engineering student.
+My name is Yin. I love [painting](subPages/myPaint), photography and listening to podcast. But honestly, I'm an engineering student.
 
 I do engineering because it's accurate, precise, and more deliverable. But all in all, art and science are just two ways of exploring the world. So I'd rather describe myself as an **EXPLORER**.
 

@@ -2,6 +2,11 @@
 layout: default
 ---
 
+<!-- scripts to enable mathJax in the .md file (kramdown) -->
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 <h1 class = "article-title">{{page.title}}</h1>
 <!-- <p>{{ page.date }} </p> -->
 <p class="artilce_meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
