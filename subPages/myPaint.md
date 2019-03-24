@@ -47,8 +47,11 @@ Here are some collection of my past work, mostly when I was a kid or teenager. A
 <!-- {% include image.html src= "../assets/img/myPaintings/1-1.JPG " file="../assets/img/myPaintings/1-1.JPG " alt="Fruits"
 caption="My initial works on sketches." %} -->
 
-
-{% include gallery layout=half caption="Initial tries on sketches: " %}
+----
+{% include gallery caption="Initial tries on sketches: " %}
+<br>
 {% include gallery id="gallery2" caption="Further explorations: " %}
+<br>
 {% include gallery id="gallery3" caption="Gouache: " %}
+<br>
 {% include gallery id="gallery4" caption="Some Plaster and Portrait: " %}

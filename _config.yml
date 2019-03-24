@@ -13,3 +13,4 @@ logo: /assets/img/logo_new.png
 blog: true
 project: true
 github.is_user_page: true
+google_analytics: true

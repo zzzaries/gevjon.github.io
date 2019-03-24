@@ -3,9 +3,9 @@ layout: default
 ---
 
 ### About Me
-My name is Yin. I love [painting](subPages/myPaint), photography and listening to podcast. But honestly, I'm an engineering student.
+My name is Yin. I love painting, photography and listening to podcast. But honestly, I'm an engineering student.
 
-I do engineering because it's accurate, precise, and more deliverable. But all in all, art and science are just two ways of exploring the world. So I'd rather describe myself as an **EXPLORER**.
+I do engineering because it's accurate, precise, and more deliverable. But all in all, art and science are just two ways of exploring the world. So I'd rather describe myself as an __EXPLORER__.
 
 Being an explorer, I'd like to spend my time **seeing** the beauty of the world, and **building** funny stuffs, which can be accomplished by the power of data and code blocks. That's why I'm intrigued by the fantasy of computer science and data science now.
 
@@ -33,7 +33,7 @@ I'm currently a master candidate from [University of Illinois at Urbana Champaig
 - IE532 Analysis of Network Data -->
 ---------------------------
 ### Useless Links
-[Linkedin](https://www.linkedin.com/in/ariesyin/?locale=en_US) | [Facebook](https://www.facebook.com/yin.zhang.988) | [Twitter](https://twitter.com/64zhangyin)
+[Linkedin](https://www.linkedin.com/in/ariesyin/?locale=en_US) | [Facebook](https://www.facebook.com/yin.zhang.988) | [Twitter](https://twitter.com/64zhangyin)    [🍬](/subPages/myPaint)
 
 
 ![](./assets/img/temp.jpg)
